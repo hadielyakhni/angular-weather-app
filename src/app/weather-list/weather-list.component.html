@@ -1,0 +1,7 @@
+<h4>{{location}}</h4>
+<br>
+<div class="forecastContiner">
+    <app-weather-card *ngFor="let day of forecast" [summary]="day.summary" [maxTemp]="day.temperatureMax"
+        [minTemp]="day.temperatureLow" [icon]="day.icon" [time]="day.time">
+    </app-weather-card>
+</div>

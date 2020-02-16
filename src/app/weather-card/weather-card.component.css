@@ -1,0 +1,45 @@
+.col {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 400px;
+    width: 220px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    background-color: #1976d2;
+    color: aliceblue;
+    font-weight: 600;
+}
+
+.imageContainer {
+    height: 75px;
+    width: 175px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dateContainer {
+    height: 40;
+    align-items: center;
+}
+
+.summary {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: x-large;
+}
+
+.temp {
+    font-size: large;
+}
+
+h5 {
+    font-weight: 600;
+}
